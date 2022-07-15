@@ -1,0 +1,55 @@
+.category {
+    color: #08cc7f;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.btn {
+    width: auto !important;
+}
+
+.user_table {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.user_table li {
+    padding-right: 1rem;
+    list-style: none;
+}
+
+.user_table {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.product_image{
+
+    text-align: center !important;
+} 
+.cursorPointer {
+    cursor: pointer;
+}
+.title{
+    line-height: 30px !important;
+    color: #08cc7f;
+}
+
+
+.footer_logo{
+    width: 70%;
+}
+
+.footer_head{
+    color: #08cc7f;
+    font-size: 1.5rem;
+}
+.footer_list li{
+    list-style: none;
+}
+.footer_list {
+   padding-left: 0px;
+}
+.footer{
+    background-color: #f6f6f6;
+}
