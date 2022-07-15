@@ -45,7 +45,7 @@ const LandingPage: React.FC<LandingPageProps> = (props) => {
                                                     <Link to={`/singleProduct/${post.id}`} onClick={() => { window.location.href = `singleProduct/${post.id}` }}>   <a>   <h4 className={styles.title}>{post.name}</h4></a></Link>
 
                                                     <span>Date : {new Date(post.created_at).toLocaleDateString()}</span><br />
-                                                    <span className={styles.price}>{post.price}</span><br />
+                                                    <span className={styles.price}>${post.price}</span><br />
 
                                                 </div>
                                             </div>
@@ -106,7 +106,7 @@ const LandingPage: React.FC<LandingPageProps> = (props) => {
                                                     <Link to={`/singleProduct/${post.id}`} onClick={() => { window.location.href = `singleProduct/${post.id}` }}>   <a>   <h4 className={styles.title}>{post.name}</h4></a></Link>
 
                                                     <span>Date : {new Date(post.created_at).toLocaleDateString()}</span><br />
-                                                    <span className={styles.price}>{post.price}</span><br />
+                                                    <span className={styles.price}>${post.price}</span><br />
 
                                                 </div>
                                             </div>
